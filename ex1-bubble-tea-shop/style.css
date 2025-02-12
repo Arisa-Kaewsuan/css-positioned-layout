@@ -1,5 +1,43 @@
 body {
   font-family: "Kanit";
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
 }
 
 /* Start coding here */
+.box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+img {
+  border: 5px solid white;
+}
+
+.messege {
+  position: relative;
+  bottom: 40px;
+  right: 150px;
+  font-size: 18px;
+}
+
+.location{
+  position: relative;
+  bottom: 280px;
+  left: 260px;
+  width: 100px;
+  height: 40px;
+  background-color: darkgray;
+}
+
+p{
+  position: absolute;
+  bottom: -5px;
+  left: 25px;
+}
